@@ -1,0 +1,28 @@
+:root {
+  --border-line: 1px solid #ebf9ff;
+  --deep-shadow: 0px 18px 17px -8px rgba(114, 189, 226, 0.3);
+  --skyblue: #56b7e8;
+  --deepblue: #568ecb;
+}
+
+.gray {
+  color: #828282;
+}
+.skyblue {
+  color: #56b7e8;
+}
+
+.deepblue {
+  color: #568ecb;
+}
+
+.line_light {
+  z-index: -1;
+  position: absolute;
+  bottom: 0px;
+  height: 80%;
+  width: 100%;
+  opacity: 0.6;
+  transform: skewX(-25deg);
+  background-color: var(--skyblue);
+}
